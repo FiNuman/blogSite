@@ -1,0 +1,93 @@
+
+head
+    title Register
+    style 
+        include ../../css/log/register.css
+.form#form
+    .control
+        h1#singnup_text
+            | Sign up
+    .control.block-cube.block-input
+        input(id='first_name' placeholder='First Name' type='text' autocomplete='off' required )
+        .bg-top
+            .bg-inner
+        .bg-right
+            .bg-inner
+        .bg
+            .bg-inner
+    .control.block-cube.block-input
+        input(id='last_name' placeholder='Last Name' type='text' autocomplete='off' required)
+        .bg-top
+            .bg-inner
+        .bg-right
+            .bg-inner
+        .bg
+            .bg-inner
+    .control.block-cube.block-input
+        input(id='email' placeholder='Email' type='email' autocomplete='off' required)
+        .bg-top
+            .bg-inner
+        .bg-right
+            .bg-inner
+        .bg
+            .bg-inner
+    .control.block-cube.block-input
+        input(id='phone' placeholder='Phone' type='text' autocomplete='off' required)
+        .bg-top
+            .bg-inner
+        .bg-right
+            .bg-inner
+        .bg
+            .bg-inner
+    .control.block-cube.block-input
+        input(id='address' placeholder='Address' type='text' autocomplete='off' required)
+        .bg-top
+            .bg-inner
+        .bg-right
+            .bg-inner
+        .bg
+            .bg-inner
+    .control.block-cube.block-input.radiobtn
+        .text
+            | Male
+        input(id='gender' name="JTP" class='radiobtninput' type='radio' autocomplete='off' value='1' required)
+        .text 
+            | Female
+        input(id='gender' name="JTP" class='radiobtninput' type='radio' autocomplete='off' value='2' required)
+        .text
+            | Other
+        input(id='gender' name="JTP" class='radiobtninput' type='radio' autocomplete='off' value='3' required)
+
+        .bg-top
+            .bg-inner
+        .bg-right
+            .bg-inner
+        .bg
+            .bg-inner
+    .btnContainer 
+        button(onclick='login()' class='btn block-cube block-cube-hover')
+            .bg-top
+                .bg-inner
+            .bg-right
+                .bg-inner
+            .bg
+                .bg-inner
+            .text
+                | Log In
+        button(onclick='register()' class='btn btn2 block-cube block-cube-hover')
+            .bg-top
+                .bg-inner
+            .bg-right
+                .bg-inner
+            .bg
+                .bg-inner
+            .text
+            .text 
+                | Register
+    //- .resetpass
+    //-     | Forgot Password
+script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js' integrity='sha512-J9QfbPuFlqGD2CYVCa6zn8/7PEgZnGpM5qtFOBZgwujjDnG5w5Fjx46YzqvIh/ORstcj7luStvvIHkisQi5SKw==' crossorigin='anonymous' referrerpolicy='no-referrer') 
+script 
+    include ../../js/log/reg.js
+
+

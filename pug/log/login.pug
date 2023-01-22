@@ -1,0 +1,54 @@
+
+head
+    title Login
+    style 
+        include ../../css/log/login.css
+    //- script(type='text/javascript').
+    //-     if (foo) bar(1 + 5)
+.form
+    .control
+        h1
+            | Sign In
+    .control.block-cube.block-input
+        input(id='Gmail' placeholder='Mail' type='gmail' autocomplete='off' required )
+        .bg-top
+            .bg-inner
+        .bg-right
+            .bg-inner
+        .bg
+            .bg-inner
+    .control.block-cube.block-input
+        input(id='user_pass' placeholder='Password' type='password' autocomplete='off' required)
+        .bg-top
+            .bg-inner
+        .bg-right
+            .bg-inner
+        .bg
+            .bg-inner
+    .btnContainer 
+        button(onclick='register()' class='btn block-cube block-cube-hover')
+            .bg-top
+                .bg-inner
+            .bg-right
+                .bg-inner
+            .bg
+                .bg-inner
+            .text
+                | Register
+        button(onclick='login()' class='btn btn2 block-cube block-cube-hover')
+            .bg-top
+                .bg-inner
+            .bg-right
+                .bg-inner
+            .bg
+                .bg-inner
+            .text
+            .text 
+                | Log In
+    .resetpass.resetpassfistchild
+        | Continue Without Login
+    .resetpass
+        | Forgot Password
+script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js' integrity='sha512-J9QfbPuFlqGD2CYVCa6zn8/7PEgZnGpM5qtFOBZgwujjDnG5w5Fjx46YzqvIh/ORstcj7luStvvIHkisQi5SKw==' crossorigin='anonymous' referrerpolicy='no-referrer') 
+script 
+    include ../../js/log/login.js

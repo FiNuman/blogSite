@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Nav 
+        style 
+            include ../../css/blog/navigation.css
+    body     
+     #navigation_container 
+        .contain_name
+            .name 
+                h1 Abdullah AL Numan
+        .contain_name
+            .mainbtn
+                button.navBtn(id='nav_id_1') Home
+            .mainbtn
+                button.navBtn(id='nav_id_2') Blog
+            .mainbtn
+                button.navBtn(id='nav_id_3') profile
+            .mainbtn
+                button.navBtn(id='nav_id_4') Report
+            .mainbtn
+                img.navBtn(id='userstaticid' src='../../img/static/icon/user.png')
+                
+script 
+    include ../../js/blog/navigation.js
