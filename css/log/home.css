@@ -1,4 +1,4 @@
-*, ::after, ::before {
+/* *, ::after, ::before {
   box-sizing: border-box;
 }
 
@@ -157,4 +157,4 @@ h1 {
 
 .text {
   font-size: 1vw;
-}
+} */

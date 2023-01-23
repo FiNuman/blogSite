@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title home body
+        style 
+            include ../css/home.css
+
+    body
+        #home_body_container 
+            #firstc_container
+                #Display_home_message 
+                    H1 Upload Your Visited Memories
+                    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, maxime! Eligendi totam, ipsam optio recusandae error maxime ipsum possimus consectetur doloribus excepturi eos consequuntur voluptates itaque dignissimos obcaecati libero veritatis!
+                #log_btns
+                    #pin_blog_text
+                        button.button-17#logonbutton
+                            |Signup
+                    #btn2
+                        button.button-17#loginbutton
+                            |login
+                #login(style="display:none;")
+                    input.inputclass(type="text" placeholdet='Email' required)
+                    input.inputclass(type="text" placeholdet='Password' required)
+                    button.loginbtn login 
+            
+            #anotherContainer 
+                #message_and_some_defination 
+                    h1 Explore ourself in a new way
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis officiis repellendus tempora provident ipsum obcaecati exercitationem deserunt quasi nam mollitia vero iste assumenda, asperiores deleniti corrupti necessitatibus qui fugit atque.
+
+            #client_feedback 
+                #feedback_message 
+                    h1 What our Client’s Say about us
+                    p Who are in extremely love with eco friendly system.
+
+
+script 
+    include ../js/home_body.js

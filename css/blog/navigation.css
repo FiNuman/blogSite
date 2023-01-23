@@ -9,6 +9,7 @@ div#navigation_container {
     width: 100%;
     height: 7vw;
     background: #171717;
+    margin-bottom: 1.5vw;
 }
 .contain_name:first-child {
     display: flex;
