@@ -183,3 +183,134 @@ div#login {
   top: 11vw;
   left: 20vw;
 }
+
+.maindiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 17vw;
+}
+
+
+
+.octagonx {
+  margin: 3vw;
+  width: 13vw;
+  height: 10vw;
+  background: rgb(0, 0, 0);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.octagonx:before {
+  content: "";
+  width: 8.26vw;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 2vw solid rgb(0, 0, 0);
+  border-left: 2.4vw solid rgb(255, 255, 255);
+  border-right: 2.4vw solid rgb(255, 255, 255);
+}
+.octagonx:after {
+  content: "";
+  width: 8.26vw;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 2vw solid rgb(0, 0, 0);
+  border-left: 2.4vw solid rgb(255, 255, 255);
+  border-right: 2.4vw solid rgb(255, 255, 255);
+}
+
+.octagonx h4 , .octagonx p{
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+}
+.octagonx p {
+  margin: 1vw;
+  font-size: 2vw;
+  font-weight: bolder;
+  color: rgb(62, 240, 246);
+}
+.octagonx h4 {
+  font-size: 2.4vw;
+  color: rgb(22, 247, 255);
+}
+
+
+
+/* ======================================Explore our self in anew way------------------ */
+#anotherContainer {
+  background: url(../img/res_systempic/pexels-pixabay-414781.jpg);
+  width: 100%;
+  height: 44vw;
+  background-repeat: no-repeat;
+  background-size: 100% 141%;
+}
+
+div#message_and_some_defination {
+  color: wheat;
+  position: relative;
+  top: 6vw;
+  left: 6vw;
+  width: 58vw;
+}
+
+div#message_and_some_defination h1{
+  font-size: 2.5vw;
+}
+
+div#message_and_some_defination p{
+  font-size: 1.5vw
+}
+
+*, ::after, ::before {
+  box-sizing:content-box;
+}
+
+
+/* =======================card css================== */
+
+div#feedback_message {
+  margin-top: 4vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+div#feedback_message h1{
+  font-size: 2.5vw;
+}
+div#feedback_message p{
+  font-size: 1.4vw;
+}
+
+
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 2vw;
+}
+.card:last-child{
+  margin-right: 0;
+}
+img.card-img-top {
+  width: 6vw;
+  height: 6vw;
+  margin-top: 3vw;
+  border-radius: 3vw;
+}
+.usercomment_sectin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
