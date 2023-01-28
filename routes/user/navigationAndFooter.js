@@ -23,19 +23,21 @@ routes
         
     })
 
-    //---------------------------------------footer
-    // .route('/')
-    // .get(async (req, res) => {
-    //     res.render('blog_and_navigation/navigation',(err, html) => {
-    //         if (err) {
-    //             return;
-    //         }
-    //         res.send({status:200, html:html})
-    //     })
-    // })
-    // .post(async (req, res) => {
+    // ---------------------------------------footer
+routes
+    .route('/footer')
+    .get(async (req, res) => {
+        res.render('blog_and_navigation/footer',(err, html) => {
+            if (err) {
+                res.send({status:400})
+                return;
+            }
+            res.send({status:200, html:html})
+        })
+    })
+    .post(async (req, res) => {
 
-    // })
+    })
 
     //------------------------------------------Home Body
 routes

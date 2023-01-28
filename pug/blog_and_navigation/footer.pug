@@ -2,7 +2,37 @@ doctype html
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
         title Document
+        style
+            include ../../css/blog/footer.css
     body 
+        #footermain_container   
+            #footerbody 
+                #footer_head_message 
+                    | NN Developer
+                #footer_detail_message 
+                    | Blogging communities are the online community of blogs and bloggers like social networking sites where all the groups of bloggers come together and interact with each other.
+            #footer_link_icon 
+                .imgboxes 
+                    .imgbox 
+                        img.fa(src='../../img/res_systempic/facebook.png')
+                    .imgbox 
+                        img(src='../../img/res_systempic/twitter.png')
+                    .imgbox 
+                        img.fa(src='../../img/res_systempic/facebook.png')
+                    .imgbox
+                        img.fa(src='../../img/res_systempic/facebook.png')
+            #footer_copyright_and_menu
+                #copyrigth_message 
+                    |Copyright ©2023 <span class='companyname'> NN Developer</span>
+                #copyright_menu
+                        .mainbtn.footermainbtn
+                            button.navBtn.navbtnfooter(id='nav_id_1') Home
+                        .mainbtn.footermainbtn
+                            button.navBtn.navbtnfooter(id='nav_id_2') Blog
+                        .mainbtn.footermainbtn
+                            button.navBtn.navbtnfooter(id='nav_id_3') profile
+                        .mainbtn.footermainbtn
+                            button.navBtn.navbtnfooter(id='nav_id_4') Report

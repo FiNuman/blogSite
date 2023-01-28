@@ -74,10 +74,6 @@ app.get('/', (req, res, next) => {
 })
 
 
-// let c = require('Cheerio')
-// console.log(c.load('https://google.com').html())
-
-
 
 
 app.post('/user_signin', multer({}).none(), async (req, res) => {

@@ -1,0 +1,71 @@
+div#footerbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#footer_detail_message {
+    width: 56vw;
+    font-size: 1.2vw;;
+    color: white;
+    margin-bottom: 1.5vw;
+}
+div#footerbody {
+    background: #333333;
+    margin-top: 3vw;
+}
+div#footer_head_message {
+    font-size: 2vw;
+    color: white;
+}
+.imgboxes {
+    display: flex;
+    flex-direction: row;
+    background: #333333;
+    justify-content: center;
+    padding-bottom: 2vw;
+}
+
+.imgboxes img {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 6vw;
+}
+.imgbox:not(:last-child) {
+    margin-right: 0.5vw;
+}
+img.fa {
+    filter: brightness(1.78);
+}
+div#footer_copyright_and_menu {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    padding-bottom:0.5vw;
+}
+div#copyrigth_message {
+    color: white;
+    font-size: 1.2vw;
+    width: 46vw;
+    display: flex;
+    align-items: center;
+}
+div#copyright_menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 32vw;
+}
+
+.navbtnfooter{
+    border-radius: 0vw !important;
+}
+
+.footermainbtn{
+    width: 5vw !important;
+}
+span.companyname {
+    position: relative;
+    color: #2ccbff;
+    left: 0.5vw;
+}
