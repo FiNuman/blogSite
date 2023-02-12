@@ -11,48 +11,31 @@ const strip = require('strip-comments')
 routes
     .route('/bar')
     .get(async (req, res) => {
-        res.render('blog_and_navigation/navigation',(err, html) => {
+        res.render('blog_and_navigation/navigation', (err, html) => {
             if (err) {
-                res.send({status:400})
+                res.send({ status: 400 })
                 return;
             }
-            res.send({status:200, html:html})
+            res.send({ status: 200, html: html })
         })
     })
     .post(async (req, res) => {
-        
+
     })
 
-    // ---------------------------------------footer
+// ---------------------------------------footer
 routes
     .route('/footer')
     .get(async (req, res) => {
-        res.render('blog_and_navigation/footer',(err, html) => {
+        res.render('blog_and_navigation/footer', (err, html) => {
             if (err) {
-                res.send({status:400})
+                res.send({ status: 400 })
                 return;
             }
-            res.send({status:200, html:html})
+            res.send({ status: 200, html: html })
         })
     })
     .post(async (req, res) => {
-
-    })
-
-    //------------------------------------------Home Body
-routes
-    .route('/home_body')
-    .get(async (req, res) => {
-        res.render('home_body',(err, html) => {
-            if (err) {
-                console.log(err)
-                res.send({status:400})
-                return;
-            }
-            res.send({status:200, html:html})
-        })
-    })
-    .post(async (req, res) => { 
 
     })
 

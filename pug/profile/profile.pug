@@ -2,15 +2,50 @@ doctype html
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js' integrity='sha512-J9QfbPuFlqGD2CYVCa6zn8/7PEgZnGpM5qtFOBZgwujjDnG5w5Fjx46YzqvIh/ORstcj7luStvvIHkisQi5SKw==' crossorigin='anonymous' referrerpolicy='no-referrer') 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         title Profile 
+        style 
+            include ../../css/profile/profile.css
     body 
-        //- user_profile_pic_and_cover_photo 
+        #nav         
         #profile_container
             #u_p_p_a_c_p
-                #u_p_p 
-                    img(src="", alt="")
-                #u_c_p
-                    img(src="", alt="")
-                    
+                #u_c_p 
+                    img(src="../../img/uploded/user2/tomato-2556426_1920.jpg")
+                #u_p_p
+                    #pic
+                        img(src="../../img/uploded/user1/user.jpg")
+                    #name_detail 
+                        .name 
+                            h1#u_name Abdullah Al Numan
+                        .detail 
+                            p 01400298344
+                            p Cibirary@gmail.com
+                        .address
+                            p Netrakona Dhaka Bangladesh
+        hr
+        #profile_menue_bar
+            ul.nav.nav-tabs
+                li.nav-item
+                    a.nav-link.active.text-dark.selector_u#u_d_1(aria-current='page') Time Line
+                li.nav-item
+                    a.nav-link.text-dark.selector_u#u_d_12 About 
+                li.nav-item
+                    a.nav-link.text-dark.selector_u#u_d_22 Photo's
+                li.nav-item
+                    a.nav-link.text-dark.selector_u#u_d_2 Friends
+
+
+        //- user_profile_pic_and_cover_photo 
+
+
+script 
+    include ../../js/nav&footer.js
+    include ../../js/profile/profile.js
+
+
+

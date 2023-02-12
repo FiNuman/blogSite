@@ -1,0 +1,51 @@
+div#u_c_p, #u_p_p {
+    display: flex;
+    justify-content: center;
+}
+
+#u_c_p img {
+    width: 73vw;
+    height: 30vw;
+    border-bottom: 0.2vw solid #00d4ff;
+}
+
+
+#u_p_p img {
+    width: 15vw;
+    height: 15vw;
+    border: 0.2vw solid #00d4ff;
+    border-radius: 10vw;
+}
+div#u_p_p {
+    position: relative;
+    top: -2.5vw;
+    left: -12vw;
+}
+div#name_detail {
+    padding-top: 4vw;
+    margin-left: 2vw;
+}
+h1#u_name {
+    color: black;
+    font-size: 2.5vw;
+}
+.detail {
+    height: 2vw;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: row;
+}
+.detail p:not(:first-child) {
+    margin-left: 2vw;
+}
+.address p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2vw;
+}
+div#profile_menue_bar, hr {
+    margin-left: 13vw;
+    margin-right: 13vw;
+}

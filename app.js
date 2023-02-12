@@ -54,6 +54,7 @@ app.use('/blog', require('./routes/user/blog'))
 app.use('/u_log', require('./routes/login-route/user-login'))
 app.use('/a_log', require('./routes/login-route/admin-login'))
 app.use('/nav', require('./routes/user/navigationAndFooter.js'))
+app.use('/home', require('./routes/user/home.js'))
 
 
 
@@ -65,7 +66,7 @@ app.set("views", path.join(__dirname, "pug"));
 //                                request and responsse
 //========================================================================================
 app.get('/', (req, res, next) => {
-    res.render('home', (err, html) => {
+    res.render('home/home.pug', (err, html) => {
         if (err) console.log(err)
         else {
             res.send(strip(html))

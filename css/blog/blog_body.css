@@ -80,3 +80,8 @@ div.blog_title::-webkit-scrollbar,
 .allblog:hover .blog_detail::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(45deg, #020024 0%, #340979 37%, #00d4ff 94%);
 }
+
+img.mimizeIMG {
+    width: 27vw;
+    height: 20vw;
+}
